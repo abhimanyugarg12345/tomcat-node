@@ -1,6 +1,6 @@
-FROM java:8
+FROM tomcat:7-alpine
 
-ENV NODE_VERSION_PREFIX 5
+ENV NODE_VERSION_PREFIX 4
 
 ADD build-node.sh /tmp/
 
