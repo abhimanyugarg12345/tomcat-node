@@ -1,13 +1,15 @@
-# java-node
-Docker to combine java and node in one docker instance to support simplify deployment
+# tomcat-node
+Docker to combine Tomcat and Node.js 
 
 Usage
 ====
-Usually this is used for base image to build project docker to combine both java and nodejs application.
+This can be used as a base image to build project docker images that needs both Tomcat and Node.js.
+
+
 
 ```
 # Dockerfile
-FROM fengzhou/java-node
+FROM riaanvddool/tomcat-node
 
 ADD file-to-be-added /mnt
 
